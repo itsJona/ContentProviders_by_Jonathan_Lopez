@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnListarLlamadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar llamadas perdidas" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Llamadas perdidas:" />
+
+    <ListView
+        android:id="@+id/listaLlamadas"
+        android:layout_width="match_parent"
+        android:layout_height="232dp" />
+
+    <Button
+        android:id="@+id/btnListarCalendarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Calendarios" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calendarios:" />
+
+    <ListView
+        android:id="@+id/listaCal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
